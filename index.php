@@ -24,13 +24,14 @@ $liste_chiffre=array("valeur");
 </head>
 
 <body>
-	<form method="post" style="display:block; background-color:rgb(0,0,250); width:100%;float:left;">
-   		 <div style=" position: relative; width: 230px; height: 600px">
+	<form method="post" style="display:block; background-color:rgb(220,220,250); width:100%;float:left;">
+   		 <div style=" position: relative; width: 230px; height: 60px">
    		 	<p>⚠:veillez entrer un chiffre</p>
        		 <label>
             	<input name="valeur">
         	</label>
        <button>rentrer</button>
+       <br><br>
     </div>
 </form>
 
@@ -76,9 +77,9 @@ $liste_chiffre=array("valeur");
     </table>
 -->
 
+<br><br>
 
-
-		<table border="black" width="50%">
+        <table border="black" width="50%">
 
 <?php
 $n=0;
